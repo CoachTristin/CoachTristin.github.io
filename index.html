@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coach Diet Turun Berat Badan</title>
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Font Awesome for TikTok -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --smoky-black: #081707;
+      --metallic-green: #237414;
+      --apple: #6DBE47;
+      --granny-smith: #BAD799;
+      --morning-blue: #8AAC8B;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--granny-smith);
+      color: var(--smoky-black);
+    }
+    a { text-decoration: none; }
+    header, footer { background-color: var(--smoky-black); color: white; }
+    .btn-wa {
+      background-color: var(--apple);
+      color: var(--smoky-black);
+      transition: filter 0.2s;
+    }
+    .btn-wa:hover { filter: brightness(1.1); }
+    .btn-social {
+      background-color: var(--metallic-green);
+      color: white;
+      transition: filter 0.2s;
+    }
+    .btn-social:hover { filter: brightness(1.1); }
+    .hero {
+      background: var(--morning-blue) url('https://via.placeholder.com/1200x500') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    .hero h1 { font-weight: 600; margin-bottom: 1rem; }
+    .testimonial img { width: 100%; height: 200px; object-fit: contain; }
+    .profile-coach img { max-width: 200px; border-radius: 10%; object-fit: cover; }
+    /* Card Styles */
+    .benefit-card {
+      border: none;
+      border-radius: 0.75rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .benefit-card:hover { transform: translateY(-5px); }
+    .benefit-icon {
+      font-size: 2rem;
+      color: var(--apple);
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a class="navbar-brand text-white fw-bold" href="#">Coach Tristin</a>
+      <a href="#profil" class="btn btn-wa btn-sm">Hubungi WA</a>
+    </div>
+  </header>
+
+  <!-- Main Banner -->
+  <section class="hero">
+    <div class="container">
+      <h1>Transformasi Tubuh Sehat &amp; Berkelanjutan</h1>
+      <p class="lead">Bergabunglah dengan program diet eksklusif bersama coach profesional untuk hasil optimal.</p>
+      <a href="#program-diet" class="btn btn-wa btn-lg mt-3">Lihat Program Diet 10 Hari</a>
+    </div>
+  </section>
+
+  <!-- Program Diet 10 Hari -->
+  <section id="program-diet" class="py-5 bg-white">
+    <div class="container">
+      <h3 class="text-center fw-bold mb-4">Manfaat Program Diet 10 Hari</h3>
+      <div class="row g-3">
+        <div class="col-6 col-md-4">
+          <div class="card benefit-card text-center p-3">
+            <div class="benefit-icon"><i class="bi bi-speedometer2"></i></div>
+            <h5 class="card-title">Metabolisme Optimal</h5>
+            <p class="card-text small">Meningkatkan pembakaran kalori secara alami.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="card benefit-card text-center p-3">
+            <div class="benefit-icon"><i class="bi bi-stopwatch"></i></div>
+            <h5 class="card-title">Kontrol Nafsu Makan</h5>
+            <p class="card-text small">Meminimalisir ngemil berlebih dan overeat.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="card benefit-card text-center p-3">
+            <div class="benefit-icon"><i class="bi bi-lightning-charge"></i></div>
+            <h5 class="card-title">Energi Lebih</h5>
+            <p class="card-text small">Meningkatkan stamina dan fokus harian.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="card benefit-card text-center p-3">
+            <div class="benefit-icon"><i class="bi bi-heart-pulse"></i></div>
+            <h5 class="card-title">Kebiasaan Sehat</h5>
+            <p class="card-text small">Membangun pola makan positif jangka panjang.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="card benefit-card text-center p-3">
+            <div class="benefit-icon"><i class="bi bi-people-fill"></i></div>
+            <h5 class="card-title">Dukungan Komunitas</h5>
+            <p class="card-text small">Motivasi dari coach dan peserta lain.</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a href="https://wa.link/w3l9xm" class="btn btn-wa btn-lg">Hubungi via WA jika Berminat</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimoni -->
+  <section id="testimoni" class="py-5">
+    <div class="container">
+      <h3 class="text-center fw-bold mb-4">Testimoni Peserta</h3>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner testimonial">
+          <div class="carousel-item active">
+            <img src="asset/juara1.jpeg" class="d-block w-100 rounded" alt="Testimoni 1">
+          </div>
+          <div class="carousel-item">
+            <img src="asset/juara2.jpeg" class="d-block w-100 rounded" alt="Testimoni 2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Profil Coach -->
+  <section id="profil" class="profile-coach py-5 text-center bg-white">
+    <div class="container">
+      <img src="asset/coach.jpeg" alt="Foto Coach" class="mb-3">
+      <h2 class="fw-bold">Coach Tristin</h2>
+      <p class="mb-3">Coach Nutrisi &amp; Fitness Trainer</p>
+      <a href="https://wa.link/w3l9xm" class="btn btn-wa mb-3">Chat via WhatsApp</a>
+      <div>
+        <a href="https://www.instagram.com/tristinlabas/?utm_source=ig_web_button_share_sheet" class="btn btn-social btn-sm mx-1"><i class="bi bi-instagram"></i></a>
+        <!-- <a href="#" class="btn btn-social btn-sm mx-1"><i class="fab fa-tiktok"></i></a> -->
+        <a href="https://web.facebook.com/tristinlabas" class="btn btn-social btn-sm mx-1"><i class="bi bi-facebook"></i></a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Footer -->
+  <footer class="py-4 text-center">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 CoachTristin. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
